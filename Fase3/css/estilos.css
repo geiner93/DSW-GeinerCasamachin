@@ -1,0 +1,49 @@
+header{
+    background-color:#204d9e;
+    padding: 20px;
+    text-align:center;
+
+}
+nav{
+    background-color: #bea9e2;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:#eddaed;
+}
+article{
+    background-color:#f3f3f3;
+    grid-column: 1/4;
+}
+aside{
+    background-color:#bea9e2;
+    padding: 30px;
+    grid-column: 4/5;
+}
+footer{
+    background-color: #7678ca;
+    padding: 10px;
+}
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #bea9e2;
+    text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #7678ca;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
